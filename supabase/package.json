@@ -1,0 +1,10 @@
+{
+  "name": "edge-functions",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "supabase functions deploy",
+    "deploy:email": "supabase functions deploy send-email --no-verify-jwt",
+    "deploy:sms": "supabase functions deploy send-sms --no-verify-jwt",
+    "deploy:all": "npm run deploy:email && npm run deploy:sms"
+  }
+}

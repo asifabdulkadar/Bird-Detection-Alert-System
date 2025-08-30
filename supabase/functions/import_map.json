@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.168.0/",
+    "http": "https://deno.land/std@0.168.0/http/mod.ts",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2.39.3",
+    "smtp": "https://deno.land/x/smtp@v0.7.0/mod.ts",
+    "twilio": "https://esm.sh/twilio@4.23.0"
+  }
+}

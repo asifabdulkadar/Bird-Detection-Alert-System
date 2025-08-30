@@ -1,0 +1,24 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-env --allow-read index.ts",
+    "test": "deno test --allow-net --allow-env",
+    "deploy": "supabase functions deploy"
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.ns", "dom", "esnext"],
+    "strict": true
+  },
+  "importMap": "./import_map.json",
+  "fmt": {
+    "files": {
+      "include": ["**/*.ts"]
+    },
+    "options": {
+      "useTabs": false,
+      "lineWidth": 100,
+      "indentWidth": 2,
+      "singleQuote": true
+    }
+  }
+}
